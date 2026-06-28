@@ -4,4 +4,19 @@
 
 html, body {
   height: 100%;
+  background-color: #f2f0eb; /* starbucks.canvas */
+  color: rgba(0, 0, 0, 0.87); /* starbucks.textBlack */
+}
+
+/* Custom font styling referencing Lander Tall / Georgia */
+.font-rewards-serif {
+  font-family: "Lander Tall", "Iowan Old Style", Georgia, serif;
+}
+
+/* Button hover scale micro-interactions */
+.btn-starbucks {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.2s ease;
+}
+.btn-starbucks:active {
+  transform: scale(0.95);
 }
